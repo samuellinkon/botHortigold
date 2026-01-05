@@ -14,7 +14,7 @@ TENDA_URL       = "https://www.tendaatacado.com.br"
 DEFAULT_TIMEOUT = int(os.getenv("PW_TIMEOUT", "60000"))
 
 # Modo headless: False = mostra navegador, True = sem UI
-HEADLESS        = False  # False para mostrar o navegador
+HEADLESS        = True  # False para mostrar o navegador
 SLOW_MO_MS      = int(os.getenv("PW_SLOWMO", "0"))
 
 USE_CEP         = True
